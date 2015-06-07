@@ -1,0 +1,35 @@
+Python 2.7.9 |Anaconda 2.2.0 (x86_64)| (default, Dec 15 2014, 10:37:34) 
+[GCC 4.2.1 (Apple Inc. build 5577)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> # Let's write the example that we just did
+... 
+>>> def convert_to_celcius(fahrenheit):
+... return (fahrenheit - 32)*5/9
+  File "<stdin>", line 2
+    return (fahrenheit - 32)*5/9
+         ^
+IndentationError: expected an indented block
+>>> # Oops what happend
+... 
+>>> # Remember in first class we said indentation is very crucial when you program in Python
+... 
+>>> def convert_to_celcius(fahrenheit):
+...     return (fahrenheit - 32)*5/9 # just push tab one time
+... 
+>>> # Now Python saved the function as function object
+... 
+>>> convert_to_celcius(80)
+26
+>>> # Now we got the result
+... 
+>>> # Let's define quadratic equation solver, simple one of course
+... 
+>>> def quadratic(a,b,c,x): # We want 4 things as parameter
+...     first = a*x**2 # ax^2
+...     second = b*x
+...     third = c
+...     return first + second + third
+... 
+>>> quadratic(2,3,4,0.5)
+6.0
+>>> 

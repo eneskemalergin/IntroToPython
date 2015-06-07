@@ -1,0 +1,37 @@
+Python 2.7.9 |Anaconda 2.2.0 (x86_64)| (default, Dec 15 2014, 10:37:34) 
+[GCC 4.2.1 (Apple Inc. build 5577)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.>>> -1
+-1
+>>> type(-1)
+<type 'int'>
+>>> type(25467889)
+<type 'int'>
+>>> type(-0)
+<type 'int'>
+>>> type(0)
+<type 'int'>
+>>> type(0.0)
+<type 'float'>
+>>> type(-1.0)
+<type 'float'>
+>>> type(9.865)
+<type 'float'>
+>>> 2+3
+5
+>>> var1 = 5
+>>> var2 = 10
+>>> var1 / var2
+0
+>>> var2 / var1
+2
+>>> var2 // var1
+2
+>>> var2 % var1
+0
+>>> var2 - var1
+5
+>>> var2 * var1
+50
+>>> var2 ** var1
+100000
+>>> 
