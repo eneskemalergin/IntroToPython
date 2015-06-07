@@ -1,0 +1,20 @@
+Python 2.7.9 |Anaconda 2.2.0 (x86_64)| (default, Dec 15 2014, 10:37:34) 
+[GCC 4.2.1 (Apple Inc. build 5577)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 2+3
+5
+>>> 2-3
+-1
+>>> 2/3
+0
+>>> "Wait What just happed."
+'Wait What just happed.'
+>>> 3/2
+1
+>>> 2*2
+4
+>>> "You can add more examples"
+'You can add more examples'
+>>> "We will explain the division puzzle later"
+'We will explain the division puzzle later'
+>>> 

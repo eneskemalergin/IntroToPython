@@ -1,0 +1,22 @@
+Python 2.7.9 |Anaconda 2.2.0 (x86_64)| (default, Dec 15 2014, 10:37:34) 
+[GCC 4.2.1 (Apple Inc. build 5577)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> var1 = 10
+>>> var2 = 1.5
+>>> var3 = "Enes"
+>>> var4 = [1,2,3,4]
+>>> var5 = {"one":1, "two":2, "three":3}
+>>> var6 = (1,2,3)
+>>> type(var1)
+<type 'int'>
+>>> type(var2)
+<type 'float'>
+>>> type(var3)
+<type 'str'>
+>>> type(var4)
+<type 'list'>
+>>> type(var5)
+<type 'dict'>
+>>> type(var6)
+<type 'tuple'>
+>>> 

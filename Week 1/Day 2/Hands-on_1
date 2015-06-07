@@ -1,0 +1,23 @@
+Python 2.7.9 |Anaconda 2.2.0 (x86_64)| (default, Dec 15 2014, 10:37:34) 
+[GCC 4.2.1 (Apple Inc. build 5577)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print "Hello World"
+Hello World
+>>> print 'hello World'
+hello World
+>>> print hello world
+  File "<stdin>", line 1
+    print hello world
+                    ^
+SyntaxError: invalid syntax
+>>> print 5
+5
+>>> print '5'
+5
+>>> print "What is the difference between them"
+What is the difference between them
+>>> print type(5)
+<type 'int'>
+>>> print type('5')
+<type 'str'>
+>>> 
