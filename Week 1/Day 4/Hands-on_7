@@ -1,0 +1,72 @@
+Python 2.7.9 |Anaconda 2.2.0 (x86_64)| (default, Dec 15 2014, 10:37:34) 
+[GCC 4.2.1 (Apple Inc. build 5577)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> "First Edition"
+'First Edition'
+>>> 'Second Edition'
+'Second Edition'
+>>> "Third Edition'
+  File "<stdin>", line 1
+    "Third Edition'
+                  ^
+SyntaxError: EOL while scanning string literal
+>>> # Double or single does't matter but what ever we choose for opening we need to make it end as well
+... 
+>>> "Very end of the day"
+'Very end of the day'
+>>> len("Very end of the day")
+19
+>>> len("Veryendoftheday")
+15
+>>> # So spaces also counted by len function
+... 
+>>> string1 = "water"
+>>> string2 = "melon"
+>>> string3 = string1 + string2
+>>> string3
+'watermelon'
+>>> "CO" + 2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: cannot concatenate 'str' and 'int' objects
+>>> # Cannot add integer into string
+... 
+>>> # We need to convert int first 
+... 
+>>> "CO" + str(2)
+'CO2'
+>>> 'Four score and ' + str(7) + ' years ago'
+'Four score and 7 years ago'
+>>> # We can also convert some numbers written in string form into int or float
+... 
+>>> int("1")
+1
+>>> float("1")
+1.0
+>>> # Normally "1" is string but using int() or float() function makes them number
+... 
+>>> ## What if?
+... 
+>>> float("a")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: could not convert string to float: a
+>>> # letter a is not a number 
+... 
+>>> 'GC' * 0
+''
+>>> 'TATATATA' * -3
+''
+>>> ''
+''
+>>> # Let's look at some DNA strands
+... 
+>>> sequence = 'ATTGTCCCCC'
+>>> len(sequence)
+10
+>>> new_sequence = sequence + 'GGCCTCCTGC'
+>>> new_sequence
+'ATTGTCCCCCGGCCTCCTGC'
+>>> new_sequence * 2
+'ATTGTCCCCCGGCCTCCTGCATTGTCCCCCGGCCTCCTGC'
+>>> 
